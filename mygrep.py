@@ -2,6 +2,7 @@ import sys
 script  =  sys.argv[0]
 def print_usage():
     sys.exit(f'Usage: python {script} pattern')
+    
 def main(argv):
     if len(argv) < 1 :
         print_usage()
